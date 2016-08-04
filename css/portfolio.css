@@ -32,7 +32,7 @@ header h1 {
 }
 
 header {
-    background: url(../img/back-header.png) no-repeat;
+    //*background: url(../img/back-header.png) no-repeat;*//
     height: 133px;
     -o-border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
@@ -60,6 +60,16 @@ nav li:hover {
     border-bottom: 2px solid;
     color: #fff;
 
+}
+
+#portfolio{
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
+}
+#portfolio:hover{
+    padding-bottom: 3px;
+    border-bottom: 2px solid;
+    color: #fff;
 }
 
 /*HEADER END*/
