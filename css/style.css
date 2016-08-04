@@ -119,7 +119,7 @@ nav li:hover{
     width: 500px;
     height: 57px;
     padding: 0 140px 0 0;
-      font-size: 57px;
+    font-size: 57px;
     text-align: right;
 }
 
@@ -248,22 +248,32 @@ blockquote,q { quotes:"" ""; }
     font-size: 22px;
     float: left;
     width: 300px;
-    padding-top: 0px;
+
 }
 .features h3{
     font-size: 30px;
     color: #666666;
-    padding: 10px 0 20px 100px;
+
 }
-.clock{
-    background: url("../img/clock.png") no-repeat 0 0;
+.clock,.instr,.star {
+    width: 300px;
+
 }
-.instr{
-    background: url("../img/instr.png") no-repeat 4% 0;
-    padding-left: 10px;
+
+.clock img,.instr img,.star img{
+float: left;
+
 }
-.star{
-    background: url("../img/star.png") no-repeat 4% 0;
+
+.clock h3,.instr h3,.star h3{
+    padding: 12px 0 0 100px;
+
+}
+.clock p,.instr p,.star p{
+    clear: both;
+}
+
+.instr,.star{
     padding-left: 10px;
 }
 
@@ -292,14 +302,10 @@ blockquote,q { quotes:"" ""; }
     padding-bottom: 40px;
 }
 
-.work2{
-    padding-left: 10px;
-}
-
 .button-news{
     padding-bottom: 25px;
 }
-.work3{
+.work3,.work2{
     padding-left: 10px;
 
 }
