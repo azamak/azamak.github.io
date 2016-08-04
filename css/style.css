@@ -99,7 +99,6 @@ nav li:hover{
 
 
 .middle{
-
     color: #fff;
     height: 305px;
 }
@@ -108,8 +107,11 @@ nav li:hover{
 #logobig{
     width:223px;
     height: 152px;
-    float: left;
-    padding: 0 0 0 140px;
+
+
+}
+#logobig img{
+    padding:70px 0 0 140px;
 }
 
 #wel{
@@ -126,7 +128,7 @@ nav li:hover{
     float: left;
     width: 220px;
     height: 100px;
-    padding: 20px 0 0 140px;
+    padding: 120px 0 0 140px;
 }
 
 #slogan p{
