@@ -15,13 +15,7 @@ body{
 
  }
 
-.wrapper{
-    width:1200px;
-    margin: 0 auto;
-
-
-}
-                /*HEADER BEGIN*/
+             /*HEADER BEGIN*/
 header h1{
     float: left;
     padding: 20px 0 0 140px;
