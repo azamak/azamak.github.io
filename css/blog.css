@@ -62,6 +62,16 @@ nav li:hover {
 
 }
 
+#blog{
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
+}
+#blog:hover{
+    padding-bottom: 3px;
+    border-bottom: 2px solid;
+    color: #fff;
+}
+
 /*HEADER END*/
 
 .line1 {
