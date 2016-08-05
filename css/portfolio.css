@@ -35,10 +35,11 @@ header h1 {
     display:inline-block;
     position:relative;
 
-
 }
 .hea .fon{
     border-radius: 10px;
+     height: 133px;
+    width: 1200px;
 
 }
 .hea .te{
@@ -74,7 +75,7 @@ nav {
 
 nav li {
     float: right;
-    margin: 32px 140px 0px -130px;
+    margin: 32px 140px 0 -130px;
 
 }
 
