@@ -39,8 +39,7 @@ header h1 {
 }
 .hea .fon{
     border-radius: 10px;
-  height: 133px;
-    width: 1200px;
+
 }
 .hea .te{
     display:block;
@@ -55,8 +54,10 @@ header h1 {
 
     color:#fff;
 
-}
+    padding:10px;
 
+
+}
 header {
 
 
@@ -126,12 +127,12 @@ nav li:hover {
 
 .about {
     padding-left: 140px;
-    width: 920px;
+    width: 917px;
 }
 
 .item {
     padding-left: 140px;
-    width: 920px;
+    width: 917px;
     padding-bottom: 700px;
 }
 
@@ -139,11 +140,11 @@ nav li:hover {
     text-align: center;
     font-size: 30px;
     color: #666666;
-    padding-bottom: 25px;
+    padding-bottom: 27px;
 }
 
 .description-work {
-    width: 920px;
+    width: 917px;
 }
 
 .imgs-work {
@@ -153,7 +154,7 @@ nav li:hover {
 }
 
 .img {
-    margin-left: 10px;
+    margin-left: 13px;
 }
 
 .img1, .img4 {
@@ -170,7 +171,7 @@ nav li:hover {
 }
 
 .images {
-    width: 300px;
+    width: 297px;
     float: left;
 
 }
@@ -223,7 +224,7 @@ nav li:hover {
 }
 
 .line3 {
-    padding: 10px 0 20px 0;
+    padding: 10px 0 27px 0;
     clear: both;
 }
 
