@@ -126,12 +126,12 @@ nav li:hover {
 
 .about {
     padding-left: 140px;
-    width: 917px;
+    width: 920px;
 }
 
 .item {
     padding-left: 140px;
-    width: 917px;
+    width: 920px;
     padding-bottom: 700px;
 }
 
@@ -143,7 +143,7 @@ nav li:hover {
 }
 
 .description-work {
-    width: 917px;
+    width: 920px;
 }
 
 .imgs-work {
@@ -153,7 +153,7 @@ nav li:hover {
 }
 
 .img {
-    margin-left: 13px;
+    margin-left: 10px;
 }
 
 .img1, .img4 {
@@ -170,7 +170,7 @@ nav li:hover {
 }
 
 .images {
-    width: 297px;
+    width: 300px;
     float: left;
 
 }

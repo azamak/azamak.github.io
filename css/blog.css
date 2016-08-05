@@ -133,17 +133,17 @@ nav li:hover {
 
 .about {
     padding-left: 140px;
-    width: 917px;
+    width: 920px;
 }
 
 .item {
     padding-left: 140px;
-    width: 917px;
+    width: 920px;
     padding-bottom: 700px;
 }
 
 .images {
-    width: 297px;
+    width: 300px;
     float: left;
 
 }
@@ -196,7 +196,7 @@ nav li:hover {
 }
 
 .buttons_np {
-    width: 917px;
+    width: 920px;
     clear: both;
     padding-top: 15px;
 
@@ -240,7 +240,7 @@ nav li:hover {
 }
 
 .post-1, .post-2, .post-3 {
-    width: 917px;
+    width: 920px;
     clear: both;
 }
 
@@ -249,7 +249,7 @@ nav li:hover {
 }
 
 .post-img {
-    width: 297px;
+    width: 300px;
     float: left;
 
 }
