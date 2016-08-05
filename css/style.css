@@ -222,7 +222,7 @@ blockquote, q {
     float: right;
     margin: 0 0 0 0;
     top: -185px;
-
+    position: relative;
 }
 
 .slidesPagination li {
