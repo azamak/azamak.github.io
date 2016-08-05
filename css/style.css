@@ -18,12 +18,15 @@ body {
     line-height: 1;
 }
 
+article{
+    width: 1200px;
+    margin: 0 auto;
+}
 .wrapper {
     width: 1200px;
     margin: 0 auto;
 
 }
-
 /*HEADER BEGIN*/
 header h1 {
     float: left;
@@ -268,15 +271,14 @@ blockquote, q {
 
 }
 
-.line1 p {
-    padding: 20px 0 27px 0;
 
-}
+
 
 .features {
     width: 920px;
-    height: 253px;
-    padding: 10px 0 0 140px;
+   clear: both;
+    padding: 0 0 0 140px;
+
 }
 
 .features li {
@@ -316,10 +318,14 @@ blockquote, q {
     padding-left: 10px;
 }
 
+.desc-features{
+    padding-top: 27px;
+}
+
 .line2 {
-    width: 920px;
-    height: 470px;
-    padding: 10px 0 65px 140px;
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
 }
 
 .line2 li {
@@ -333,7 +339,7 @@ blockquote, q {
     float: left;
     font-size: 30px;
     color: #666666;
-    padding: 20px 20px 20px 0px;
+    padding: 20px 20px 20px 0;
 }
 
 .line2 li p {
@@ -341,18 +347,25 @@ blockquote, q {
     padding-bottom: 40px;
 }
 
-.button-news {
-    padding-bottom: 25px;
+.in-line2{
+    width: 920px;
+    padding-left: 140px;
 }
+
+
+
 
 .work3, .work2 {
     padding-left: 10px;
 
 }
+.work3 p,.work2 p,.work1 p{
+    clear: both;
+}
 
 .work-img {
     border-radius: 8px;
-    width: 297px;
+    width: 300px;
     height: 186px;
 }
 
@@ -373,6 +386,16 @@ blockquote, q {
     color: #00aeff;
 }
 
+.line-bottom{
+    clear: both;
+    padding: 20px 0 27px 0;
+}
+.line-bottom .bottomer{
+    clear: both;
+    padding: 10px 0 0 0;
+}
+
+
 footer {
     width: 1200px;
     height: 150px;
@@ -380,6 +403,7 @@ footer {
     background: url("../img/back-footer.png") no-repeat 0 0;
 
     border-radius: 10px 10px 10px 10px;
+    clear: both;
 }
 
 .socseti {
