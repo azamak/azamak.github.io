@@ -557,7 +557,7 @@
 				image: "../img/loading.gif" // [String] Define the path to a load .gif, yes I should do something cooler
 			},
 			startAtSlide: 1, // [Number] What should the first slide be?
-			playInterval: 5000, // [Number] Time spent on each slide in milliseconds
+			playInterval: 8000, // [Number] Time spent on each slide in milliseconds
 			pauseInterval: 8000, // [Number] Time spent on pause, triggered on any navigation or pagination click
 			autoHeight: false, // [Boolean] TODO: add this feature. Auto sets height based on each slide
 			navigateStart: function( current ){
@@ -1053,3 +1053,4 @@
 		}
   });
 })(jQuery);
+
