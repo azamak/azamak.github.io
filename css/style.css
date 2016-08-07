@@ -18,15 +18,17 @@ body {
     line-height: 1;
 }
 
-article{
+article {
     width: 1200px;
     margin: 0 auto;
 }
+
 .wrapper {
     width: 1200px;
     margin: 0 auto;
 
 }
+
 /*HEADER BEGIN*/
 header h1 {
     float: left;
@@ -104,41 +106,64 @@ nav li:hover {
     color: #fff;
 }
 
-.middle {
+.log-sl-wel {
+    display: inline-block;
+    position: relative;
+    width: 920px;
+    margin: 0 auto;
+    padding-left: 140px;
+}
+
+.log-nav {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.log-nav h1 {
+    padding: 20px 0 0 140px;
+}
+
+.logobig {
+    width: 350px;
     color: #fff;
-    height: 305px;
-}
-
-#logobig {
-    width: 223px;
-    height: 152px;
-
-}
-
-#logobig img {
-    padding: 70px 0 0 140px;
-}
-
-#wel {
-    float: right;
-    width: 500px;
-    height: 57px;
-    padding: 0 140px 0 0;
-    font-size: 57px;
-    text-align: right;
-}
-
-#slogan {
-
     float: left;
-    width: 220px;
-
-    padding: 0 0 0 140px;
+    padding-top: 50px;
 }
 
-#slogan p {
+.logobig .slogan {
+    width: 223px;
+    clear: both;
     font-size: 32px;
     text-align: center;
+    padding-top: 25px;
+}
+
+.botm {
+    width: 570px;
+    float: right;
+    color: #fff;
+}
+
+.welcome {
+    float: right;
+    font-size: 57px;
+    padding-top: 50px;
+}
+
+.container {
+    padding: 60px 0 0 0;
+    width: 556px;
+    height: 150px;
+    float: right;
+}
+
+
+.linehor{
+    width: 1200px;
+    height: 22px;
+    padding: 22px 0 24px 0;
+    clear: both;
 }
 
 /*
@@ -197,13 +222,6 @@ blockquote, q {
 	Page style
 */
 
-#container {
-    float: right;
-    clear: right;
-    width: 556px;
-    height: 150px;
-    padding: 58px 140px 0 0;
-}
 
 #slides {
     position: relative;
@@ -271,12 +289,9 @@ blockquote, q {
 
 }
 
-
-
-
 .features {
     width: 920px;
-   clear: both;
+    clear: both;
     padding: 0 0 0 140px;
 
 }
@@ -306,7 +321,7 @@ blockquote, q {
 }
 
 .clock h3, .instr h3, .star h3 {
-    padding: 12px 0 0 100px;
+    padding: 12px 0 40px 100px;
 
 }
 
@@ -318,12 +333,12 @@ blockquote, q {
     padding-left: 10px;
 }
 
-.desc-features{
+.desc-features {
     padding-top: 27px;
 }
 
 .line2 {
-    width: 1200px;
+    width: 920px;
     margin: 0 auto;
     clear: both;
 }
@@ -347,22 +362,23 @@ blockquote, q {
     padding-bottom: 40px;
 }
 
-.in-line2{
+.in-line2 {
     width: 920px;
     padding-left: 140px;
 }
-
-
-
 
 .work3, .work2 {
     padding-left: 10px;
 
 }
-.work3 p,.work2 p,.work1 p{
+
+.work3 p, .work2 p, .work1 p {
     clear: both;
 }
 
+.line2 li{
+    padding-bottom: 8px;
+}
 .work-img {
     border-radius: 8px;
     width: 300px;
@@ -386,15 +402,15 @@ blockquote, q {
     color: #00aeff;
 }
 
-.line-bottom{
+.line-bottom {
     clear: both;
     padding: 20px 0 27px 0;
 }
-.line-bottom .bottomer{
+
+.line-bottom .bottomer {
     clear: both;
     padding: 10px 0 0 0;
 }
-
 
 footer {
     width: 1200px;
