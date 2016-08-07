@@ -1,7 +1,4 @@
-
-
-
-$(Document).ready(function () {
+$(document).ready(function () {
 
     $('#wel').click(function () {
     $('#wel').animate({paddingRight:'235px'},2000);
@@ -12,8 +9,9 @@ $(Document).ready(function () {
 
 setTimeout(function () {
     $('#container').ready(function () {
-        if($('.controls').text()=='Play'){
-                 $('.controls').click();
+        var contr=$('.controls');
+        if(contr.text()=='Play'){
+                 contr.click();
         }
 });
 
