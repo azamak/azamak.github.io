@@ -129,11 +129,11 @@ nav li:hover {
 }
 
 #slogan {
-    clear: left;
+
     float: left;
     width: 220px;
 
-    padding: 120px 0 0 140px;
+    padding: 0 0 0 140px;
 }
 
 #slogan p {
