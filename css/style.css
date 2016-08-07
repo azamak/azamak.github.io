@@ -466,3 +466,14 @@ footer p {
 .vk:hover {
     padding-top: 8px;
 }
+
+@media all and (max-width : 1200px) {
+.slogan p{
+font-size: 70%;
+}
+
+.welcome p{
+    font-size: 70%;
+}
+
+}
