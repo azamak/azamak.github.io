@@ -422,15 +422,6 @@ footer {
     clear: both;
 }
 
-.socseti {
-    float: right;
-    padding: 25px 140px 0 0;
-}
-
-.socseti li {
-    float: left;
-
-}
 
 footer p {
     float: left;
@@ -439,33 +430,29 @@ footer p {
     font-size: 18px;
 }
 
-.facebook {
+
+.socseti {
+    float: right;
+    padding: 25px 140px 0 0;
+}
+
+.mail,.facebook,.twitter:hover,.vk:hover  {
+    transition: all 0.35s;
+}
+.socseti li {
+    float: left;
+
+}
+
+.vk,.mail,.facebook {
     padding-right: 10px;
 }
 
-.vk {
-    padding-right: 10px;
-}
 
-.mail {
-    padding-right: 10px;
-}
-
-.mail:hover {
+.mail:hover,.twitter:hover,.facebook:hover,.vk:hover {
     padding-top: 8px;
 }
 
-.twitter:hover {
-    padding-top: 8px;
-}
-
-.facebook:hover {
-    padding-top: 8px;
-}
-
-.vk:hover {
-    padding-top: 8px;
-}
 
 @media all and (max-width : 1200px) {
 .slogan p{
@@ -473,7 +460,7 @@ font-size: 70%;
 }
 
 .welcome p{
-    font-size: 74%;
+    font-size: 75%;
 }
 
 }
