@@ -31,35 +31,35 @@ header h1 {
     padding: 20px 0 0 140px;
 }
 
-.hea{
-    display:inline-block;
-    position:relative;
+.hea {
+    display: inline-block;
+    position: relative;
 
 }
-.hea .fon{
+
+.hea .fon {
     border-radius: 10px;
-     height: 133px;
+    height: 133px;
     width: 1200px;
 
 }
-.hea .te{
-    display:block;
-    position:absolute;
-    left:0;
-    top:0;
-    width:100%;
-    box-sizing:border-box;
+
+.hea .te {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 
-    color:#fff;
-
-
+    color: #fff;
 
 }
-header {
 
+header {
 
     height: 133px;
     width: 1200px;
@@ -76,6 +76,7 @@ nav {
 nav li {
     float: right;
     margin: 32px 140px 0 -130px;
+    transition: all .1s;
 
 }
 
@@ -91,11 +92,12 @@ nav li:hover {
 
 }
 
-#portfolio{
+#portfolio {
     padding-bottom: 3px;
     border-bottom: 2px solid #fff;
 }
-#portfolio:hover{
+
+#portfolio:hover {
     padding-bottom: 3px;
     border-bottom: 2px solid;
     color: #fff;
@@ -240,15 +242,7 @@ footer {
     clear: both;
 }
 
-.socseti {
-    float: right;
-    padding: 25px 140px 0 0;
-}
 
-.socseti li {
-    float: left;
-
-}
 
 footer p {
     float: left;
@@ -257,30 +251,25 @@ footer p {
     font-size: 18px;
 }
 
-.facebook {
+
+.socseti {
+    float: right;
+    padding: 25px 140px 0 0;
+}
+
+.mail, .facebook, .twitter:hover, .vk:hover {
+    transition: all 0.35s;
+}
+
+.socseti li {
+    float: left;
+
+}
+
+.vk, .mail, .facebook {
     padding-right: 10px;
 }
 
-.vk {
-    padding-right: 10px;
-}
-
-.mail {
-    padding-right: 10px;
-}
-
-.mail:hover {
-    padding-top: 8px;
-}
-
-.twitter:hover {
-    padding-top: 8px;
-}
-
-.facebook:hover {
-    padding-top: 8px;
-}
-
-.vk:hover {
+.mail:hover, .twitter:hover, .facebook:hover, .vk:hover {
     padding-top: 8px;
 }

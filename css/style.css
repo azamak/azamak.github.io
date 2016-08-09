@@ -80,12 +80,13 @@ nav {
 nav li {
     float: right;
     margin: 32px 140px 0px -130px;
-
+    transition: all .1s;
 }
 
 nav li a {
     color: #fff;
     font-size: 37px;
+
 }
 
 nav li:hover {
@@ -158,8 +159,7 @@ nav li:hover {
     float: right;
 }
 
-
-.linehor{
+.linehor {
     width: 1200px;
     height: 22px;
     padding: 22px 0 24px 0;
@@ -221,7 +221,6 @@ blockquote, q {
 /*
 	Page style
 */
-
 
 #slides {
     position: relative;
@@ -376,9 +375,10 @@ blockquote, q {
     clear: both;
 }
 
-.line2 li{
+.line2 li {
     padding-bottom: 8px;
 }
+
 .work-img {
     border-radius: 8px;
     width: 300px;
@@ -422,7 +422,6 @@ footer {
     clear: both;
 }
 
-
 footer p {
     float: left;
     padding: 60px 0 0 140px;
@@ -430,37 +429,35 @@ footer p {
     font-size: 18px;
 }
 
-
 .socseti {
     float: right;
     padding: 25px 140px 0 0;
 }
 
-.mail,.facebook,.twitter:hover,.vk:hover  {
+.mail, .facebook, .twitter:hover, .vk:hover {
     transition: all 0.35s;
 }
+
 .socseti li {
     float: left;
 
 }
 
-.vk,.mail,.facebook {
+.vk, .mail, .facebook {
     padding-right: 10px;
 }
 
-
-.mail:hover,.twitter:hover,.facebook:hover,.vk:hover {
+.mail:hover, .twitter:hover, .facebook:hover, .vk:hover {
     padding-top: 8px;
 }
 
+@media all and (max-width: 1200px) {
+    .slogan p {
+        font-size: 70%;
+    }
 
-@media all and (max-width : 1200px) {
-.slogan p{
-font-size: 70%;
-}
-
-.welcome p{
-    font-size: 75%;
-}
+    .welcome p {
+        font-size: 75%;
+    }
 
 }

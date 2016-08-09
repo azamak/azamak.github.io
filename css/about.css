@@ -74,6 +74,7 @@ nav {
 nav li {
     float: right;
     margin: 32px 140px 0px -130px;
+    transition: all .1s;
 
 }
 
@@ -153,15 +154,7 @@ footer {
     -webkit-border-radius: 10px 10px 10px 10px;
 }
 
-.socseti {
-    float: right;
-    padding: 25px 140px 0 0;
-}
 
-.socseti li {
-    float: left;
-
-}
 
 footer p {
     float: left;
@@ -170,30 +163,25 @@ footer p {
     font-size: 18px;
 }
 
-.facebook {
+
+.socseti {
+    float: right;
+    padding: 25px 140px 0 0;
+}
+
+.mail, .facebook, .twitter:hover, .vk:hover {
+    transition: all 0.35s;
+}
+
+.socseti li {
+    float: left;
+
+}
+
+.vk, .mail, .facebook {
     padding-right: 10px;
 }
 
-.vk {
-    padding-right: 10px;
-}
-
-.mail {
-    padding-right: 10px;
-}
-
-.mail:hover {
-    padding-top: 8px;
-}
-
-.twitter:hover {
-    padding-top: 8px;
-}
-
-.facebook:hover {
-    padding-top: 8px;
-}
-
-.vk:hover {
+.mail:hover, .twitter:hover, .facebook:hover, .vk:hover {
     padding-top: 8px;
 }
