@@ -215,6 +215,7 @@ nav li:hover {
     color: #2c493a;
     float: right;
     clear: both;
+    transition: all 1s;
 }
 
 .button-next a:visited {
@@ -233,6 +234,7 @@ nav li:hover {
     border-radius: 6px;
     color: #2c493a;
     float: left;
+    transition: all 1s;
 }
 
 .button-prev a:visited {
@@ -285,14 +287,12 @@ footer {
     clear: both;
 }
 
-
 footer p {
     float: left;
     padding: 60px 0 0 140px;
     color: #fff;
     font-size: 18px;
 }
-
 
 .socseti {
     float: right;
