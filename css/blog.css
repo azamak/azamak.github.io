@@ -157,14 +157,20 @@ nav li:hover {
 }
 
 .numpage {
-    float: left;
+
     clear: both;
-    padding-top: 30px;
+    padding: 30px 0 10px 0;
+    text-align: center;
+
+
+.ch-line{
+    width: 920px;
+}
 
 }
 
 .numpage li {
-    float: left;
+  display: inline-block;
     padding-left: 15px;
 
 
@@ -180,7 +186,7 @@ nav li:hover {
 
 .numpage li a {
     color: #4c7162;
-    font-size: 18px;
+    font-size: 15px;
     border:solid 1px ;
     padding: 3px 4px;
     -webkit-border-radius:5px;
@@ -287,8 +293,9 @@ nav li:hover {
 }
 
 .line3 {
-    padding: 10px 0 27px 0;
+    padding: 12px 0 27px 0;
     clear: both;
+    text-align: center;
 }
 
 footer {

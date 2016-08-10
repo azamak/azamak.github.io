@@ -119,6 +119,7 @@ nav li:hover {
     width: 1200px;
     height: 100px;
     margin: 0 auto;
+
 }
 
 .log-nav h1 {
@@ -398,6 +399,7 @@ blockquote, q {
 .line2 a:visited {
     color: #a5a5a5;
 }
+
 
 .line2 a:hover {
     color: #00aeff;

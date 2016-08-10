@@ -184,16 +184,24 @@ nav li:hover {
     padding-bottom: 10px;
 
 }
-
 .numpage {
-    float: left;
+
     clear: both;
-    padding-top: 30px;
+    padding: 30px 0 10px 0;
+    text-align: center;
 }
 
+.ch-line{
+    width: 920px;
+    padding-left: 140px;
+}
+
+
+
 .numpage li {
-    float: left;
-    padding-left: 10px;
+  display: inline-block;
+    padding-left: 15px;
+
 
 }
 
@@ -206,18 +214,33 @@ nav li:hover {
 }
 
 .numpage li a {
-    color: #2c493a;
-    font-size: 18px;
+    color: #4c7162;
+    font-size: 15px;
+    border:solid 1px ;
+    padding: 3px 4px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    transition:all 1s ;
+
 }
 
-.numpage li .numbs:hover {
+.numpage li a:hover {
     color: #00aeff;
-    border-bottom: solid 2px #00aeff;
+  border-radius:6px;
+
 }
 
-.numpage li .next-arrow:hover {
-    color: #00aeff;
+
+.numpage li .prev-arrow {
+    color: #a5a5a5;
+    font-weight: bold;
 }
+.numpage li .prev-arrow:hover {
+    color: #a5a5a5;
+
+}
+
 
 .works-inscription {
     color: #2c493a;
