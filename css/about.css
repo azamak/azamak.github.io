@@ -195,4 +195,14 @@ footer p {
     width: 1200px;
 }
 
+    footer {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    background: url("../img/back-footer.png") no-repeat 0 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
 }
