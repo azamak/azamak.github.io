@@ -188,3 +188,12 @@ footer p {
 .mail:hover, .twitter:hover, .facebook:hover, .vk:hover {
     padding-top: 8px;
 }
+
+@media all and (max-width: 1200px) {
+    body {
+        width: 1200px;
+        padding:0 20px 0 20px;
+
+    }
+
+}
