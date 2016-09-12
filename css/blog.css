@@ -356,7 +356,7 @@ footer p {
     -webkit-border-radius: 0;
 }
       body {
-    font-size: small;
+    font-size: inherit;
 
 }
 
