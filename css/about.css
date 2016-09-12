@@ -189,10 +189,10 @@ footer p {
 }
 
 @media all and (max-width: 1200px) {
-    body {
-        width: 1200px;
-        padding:0 20px 0 20px;
-
-    }
+   .hea .fon {
+    border-radius: 0px;
+    height: 133px;
+    width: 1200px;
+}
 
 }
