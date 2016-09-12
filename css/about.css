@@ -207,9 +207,17 @@ footer p {
 }
     .about {
     padding-left: 0;
-        padding: 0 30px 0 30px;
-    width: 100%;
+    width: 1200px;
+
 }
+    .content-inside{
+        padding: 0 30px 30px 30px;
+
+}
+    .about-img{
+        display: block;
+        margin: 0 auto;
+    }
 
 
 }
