@@ -128,7 +128,8 @@ nav li:hover {
 .about {
     padding-left: 140px;
     width: 920px;
-    text-align: justify;
+   
+
 }
 
 .content-inside {
@@ -203,6 +204,10 @@ footer p {
     border-radius: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
+}
+    body {
+    font-size: 18px;
+
 }
 
 }
