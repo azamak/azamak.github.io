@@ -31,9 +31,38 @@ header h1 {
     padding: 20px 0 0 140px;
 }
 
-header {
-    background: url(../img/back-header.png) no-repeat;
+.hea {
+    display: inline-block;
+    position: relative;
+
+}
+
+.hea .fon {
+    border-radius: 10px;
     height: 133px;
+    width: 1200px;
+
+}
+
+.hea .te {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    color: #fff;
+
+}
+
+header {
+
+    height: 133px;
+    width: 1200px;
     -o-border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
@@ -46,7 +75,8 @@ nav {
 
 nav li {
     float: right;
-    margin: 32px 140px 0px -130px;
+    margin: 32px 140px 0 -130px;
+    transition: all .1s;
 
 }
 
@@ -60,6 +90,17 @@ nav li:hover {
     border-bottom: 2px solid;
     color: #fff;
 
+}
+
+#portfolio {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
+}
+
+#portfolio:hover {
+    padding-bottom: 3px;
+    border-bottom: 2px solid;
+    color: #fff;
 }
 
 /*HEADER END*/
@@ -101,7 +142,7 @@ nav li:hover {
     text-align: center;
     font-size: 30px;
     color: #666666;
-    padding-bottom: 25px;
+    padding-bottom: 27px;
 }
 
 .description-work {
@@ -143,16 +184,24 @@ nav li:hover {
     padding-bottom: 10px;
 
 }
-
 .numpage {
-    float: left;
+
     clear: both;
-    padding-top: 30px;
+    padding: 30px 0 10px 0;
+    text-align: center;
 }
 
+.ch-line{
+    width: 920px;
+    padding-left: 140px;
+}
+
+
+
 .numpage li {
-    float: left;
-    padding-left: 10px;
+  display: inline-block;
+    padding-left: 15px;
+
 
 }
 
@@ -165,18 +214,33 @@ nav li:hover {
 }
 
 .numpage li a {
-    color: #2c493a;
-    font-size: 18px;
+    color: #4c7162;
+    font-size: 15px;
+    border:solid 1px ;
+    padding: 3px 4px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    transition:all 1s ;
+
 }
 
-.numpage li .numbs:hover {
+.numpage li a:hover {
     color: #00aeff;
-    border-bottom: solid 2px #00aeff;
+  border-radius:6px;
+
 }
 
-.numpage li .next-arrow:hover {
-    color: #00aeff;
+
+.numpage li .prev-arrow {
+    color: #a5a5a5;
+    font-weight: bold;
 }
+.numpage li .prev-arrow:hover {
+    color: #a5a5a5;
+
+}
+
 
 .works-inscription {
     color: #2c493a;
@@ -185,7 +249,7 @@ nav li:hover {
 }
 
 .line3 {
-    padding: 10px 0 20px 0;
+    padding: 10px 0 27px 0;
     clear: both;
 }
 
@@ -195,21 +259,12 @@ footer {
     margin: 0 auto;
     background: url("../img/back-footer.png") no-repeat 0 0;
     border-radius: 10px 10px 10px 10px;
-    -o-border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
     clear: both;
 }
 
-.socseti {
-    float: right;
-    padding: 25px 140px 0 0;
-}
 
-.socseti li {
-    float: left;
-
-}
 
 footer p {
     float: left;
@@ -218,30 +273,25 @@ footer p {
     font-size: 18px;
 }
 
-.facebook {
+
+.socseti {
+    float: right;
+    padding: 25px 140px 0 0;
+}
+
+.mail, .facebook, .twitter:hover, .vk:hover {
+    transition: all 0.35s;
+}
+
+.socseti li {
+    float: left;
+
+}
+
+.vk, .mail, .facebook {
     padding-right: 10px;
 }
 
-.vk {
-    padding-right: 10px;
-}
-
-.mail {
-    padding-right: 10px;
-}
-
-.mail:hover {
-    padding-top: 8px;
-}
-
-.twitter:hover {
-    padding-top: 8px;
-}
-
-.facebook:hover {
-    padding-top: 8px;
-}
-
-.vk:hover {
+.mail:hover, .twitter:hover, .facebook:hover, .vk:hover {
     padding-top: 8px;
 }
