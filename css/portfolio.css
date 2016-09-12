@@ -312,5 +312,9 @@ footer p {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
 }
+      body {
+    font-size: small;
+
+}
 
 }
