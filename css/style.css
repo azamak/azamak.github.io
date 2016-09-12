@@ -70,7 +70,6 @@ header {
     -o-border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -463,14 +462,13 @@ footer p {
         font-size: 75%;
     }
 
-    header {
+    .hea .fon {
+    border-radius: 0;
+    width: 1200px;
+    height: 465px;
 
-        height: 465px;
-        -o-border-radius: 0;
-        -moz-border-radius: 0;
-        -webkit-border-radius: 0;
-        border-radius: 0;
-    }
+
+
     footer {
     width: 1200px;
     height: 150px;
