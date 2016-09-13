@@ -156,6 +156,10 @@ nav li:hover {
 
 }
 
+.text img{
+    display: none;
+}
+
 .numpage {
 
     clear: both;
@@ -452,6 +456,7 @@ footer p {
 
     }
     .text img{
+        display: block;
         width: 1140px;
         clear: both;
         padding: 30px 0 30px 0;
