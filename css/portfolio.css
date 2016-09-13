@@ -296,6 +296,10 @@ footer p {
     padding-top: 8px;
 }
 
+.next-but{
+    display: none;
+}
+
 @media all and (max-width: 1200px) {
    .hea .fon {
     border-radius: 0px;
@@ -331,7 +335,7 @@ footer p {
         clear: both;
     }
     .description-text p{
-        padding: 15px 30px 0 30px;
+        padding: 15px 30px 30px 30px;
     }
     .description-work{
         width: 1200px;
@@ -341,6 +345,26 @@ footer p {
         width: 920px;
         margin: 0 auto;
     }
+    .numpage{
+        display: none;
+    }
+    .next-but{
+    display: block;
+        width: 300px;
+        margin:  0 auto;
+        border: 2px solid #2c493a;
+         border-radius: 8px;
+
+}
+    .next-but p{
+        color: #2c493a;
+        text-transform: uppercase;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+
 
 
 }
