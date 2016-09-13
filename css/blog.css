@@ -396,6 +396,7 @@ footer p {
         padding-bottom: 30px;
         margin: 0 auto;
         clear: both;
+        font-size: 5vw;
     }
 
     .post-1, .post-2, .post-3 {
@@ -413,6 +414,7 @@ footer p {
     }
     .ch-line{
         margin: 0 auto;
+        margin-top: 30px;
     }
 
      .numpage{
@@ -436,7 +438,41 @@ footer p {
         padding: 40px;
         text-align: center;
     }
+    .images {
+        width: 370px;
+        float: left;
+    }
+    .images img{
+        width: 370px;
+
+    }
+    .text{
+        width: 740px;
+        font-size: 5vw;
+
+    }
+    .button-next{
+        clear: both;
+        width: 500px;
+        height: 40px;
+        float: right;
+
+    }
+
+    .button-next a{
+        float: right;
+
+
+    }
+    .buttons_np{
+        width: 1140px;
+    }
+
+
 
 }
+
+
+
 
 
