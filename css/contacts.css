@@ -219,6 +219,9 @@ footer p {
         width: 1140px;
         width: 1140px;
     }
+    footer p{
+        width: 500px;
+    }
 
 
 }
