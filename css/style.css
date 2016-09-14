@@ -125,6 +125,9 @@ nav li:hover {
 .log-nav h1 {
     padding: 20px 0 0 140px;
 }
+.pictheader{
+    display: none;
+}
 
 .logobig {
     width: 350px;
@@ -650,6 +653,19 @@ footer p {
     .vk, .mail, .facebook {
     padding-right: 30px;
 }
+    .pictheader{
+        display:block;
+        position: relative;
+        width: 1140px;
+        height: 642px;
+        clear: both;
+        margin: 0 auto;
+        padding-top: 150px;
+    }
+    .pictheader img{
+        width: 1140px;
+        border-radius: 15px;
+    }
 
 
 

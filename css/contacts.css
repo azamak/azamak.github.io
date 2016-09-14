@@ -195,34 +195,47 @@ footer p {
     width: 1200px;
 }
 
-    footer {
+           footer {
     width: 1200px;
-    height: 150px;
+    height: 300px;
     margin: 0 auto;
-    background: url("../img/back-footer.png") no-repeat 0 0;
+    background: url("../img/back-footer-mobile.png") no-repeat 0 0;
+
     border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
+    clear: both;
 }
-    .about {
-    padding-left: 0;
-    width: 1200px;
-
-
-}
-    .content-inside-contacts{
-        padding: 0 30px 30px 30px;
-
-}
-    .about-img{
-        display: block;
+       .twitter img{
+        width: 150px;
+    }
+    .vk img{
+        width: 150px;
+    }
+    .facebook img{
+        width: 150px;
+    }
+    .mail img{
+        width: 150px;
+    }
+    .socseti{
+        padding:50px 0 0 0;
+        float: none;
         margin: 0 auto;
-        width: 1140px;
-        width: 1140px;
+        display: block;
+        clear: both;
+        width: 690px;
+    }
+    .socseti ul{
+        margin: 0 auto;
     }
     footer p{
-        width: 500px;
+        padding: 0;
+        text-align: center;
+        float: none;
+        display: none;
     }
+    .vk, .mail, .facebook {
+    padding-right: 30px;
+}
 
 
 }
