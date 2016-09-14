@@ -631,7 +631,21 @@ footer p {
         width: 150px;
     }
     .socseti{
-        padding: 55px 30px 0 0;
+        padding:50px 0 0 0;
+        float: none;
+        margin: 0 auto;
+        display: block;
+        clear: both;
+        width: 630px;
+    }
+    .socseti ul{
+        margin: 0 auto;
+    }
+    footer p{
+        padding: 0;
+        text-align: center;
+        float: none;
+        display: none;
     }
 
 
