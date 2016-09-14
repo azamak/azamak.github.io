@@ -269,7 +269,7 @@ blockquote, q {
 .current_slide {
     font: bold 10px/1.33 sans-serif;
     float: left;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 .controls {
@@ -463,75 +463,178 @@ footer p {
     }
 
     .hea .fon {
-    border-radius: 0;
-    width: 1200px;
-    height: 465px;
-}
-
+        border-radius: 0;
+        width: 1200px;
+        height: 465px;
+    }
 
     footer {
-    width: 1200px;
-    height: 150px;
-    margin: 0 auto;
-    background: url("../img/back-footer.png") no-repeat 0 0;
-    border-radius: 0;
-    clear: both;
-}
-    .features{
+        width: 1200px;
+        height: 150px;
+        margin: 0 auto;
+        background: url("../img/back-footer.png") no-repeat 0 0;
+        border-radius: 0;
+        clear: both;
+    }
+
+    .features {
         width: 1140px;
         padding-left: 0;
         margin: 0 auto;
     }
-    .features .clock{
+
+    .features .clock {
         width: 1140px;
         padding-bottom: 30px;
     }
-    .features .instr{
+
+    .features .instr {
         width: 1140px;
         padding: 0 0 30px 0;
     }
-    .features .star{
+
+    .features .star {
         width: 1140px;
         padding: 0 0 30px 0;
     }
-    .line1{
+
+    .line1 {
+        width: 1140px;
+        clear: both;
+    }
+
+    .linehor {
         width: 1140px;
     }
-    .linehor{
+
+    .line2 {
         width: 1140px;
     }
-    .line2{
-        width: 1140px;
-    }
+
     .line2 .work1 {
         width: 1140px;
-        padding-bottom: 35px;
+        padding-bottom: 70px;
     }
-    .line2 .work1 img{
+
+    .line2 .work1 img {
         width: 1140px;
         clear: both;
         height: 664px;
 
-
     }
+
     .line2 .work2 {
         width: 1140px;
-        padding: 0 0 35px 0;
+        padding: 0 0 70px 0;
     }
-    .line2 .work2 img{
+
+    .line2 .work2 img {
         width: 1140px;
         height: 664px;
     }
+
     .line2 .work3 {
         width: 1140px;
         padding: 0;
     }
-    .line2 .work3 img{
+
+    .line2 .work3 img {
         width: 1140px;
         height: 664px;
     }
-    .button-news{
-        float: right;
+
+    .line2 a {
+        text-transform: uppercase;
+        padding: 60px 300px;
+        font-size: 25px;
+        border: solid 2px;
+        border-radius: 6px;
+        color: #2c493a;
+        text-align: center;
+        display: block;
+
     }
+
+    .line2 a:visited {
+        color: #a5a5a5;
+    }
+
+    .line2 a:hover {
+        color: #00aeff;
+    }
+
+    .button-news {
+        width: 1000px;
+        margin: 0 auto;
+
+    }
+
+    .hea .fon {
+        border-radius: 0;
+        width: 1200px;
+        height: 930px;
+        clear: both;
+
+    }
+    header{
+        height: 930px;
+    }
+
+    .container {
+        clear: both;
+    width: 1140px;
+    height: 300px;
+        display: none;
+        float: none;
+
+}
+    .logobig{
+        clear: both;
+    }
+    #slides{
+        height: 300px;
+    }
+    .botm{
+        width: 1140px;
+    }
+    .log-sl-wel{
+        width: 1140px;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+    }
+    .welcome{
+        display: none;
+    }
+    .logobig{
+        display: none;
+    }
+    footer {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background: url("../img/back-footer-mobile.png") no-repeat 0 0;
+
+    border-radius: 0;
+    clear: both;
+}
+    .twitter img{
+        width: 150px;
+    }
+    .vk img{
+        width: 150px;
+    }
+    .facebook img{
+        width: 150px;
+    }
+    .mail img{
+        width: 150px;
+    }
+    .socseti{
+        padding: 55px 30px 0 0;
+    }
+
+
+
 
 }

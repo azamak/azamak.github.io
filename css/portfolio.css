@@ -353,20 +353,38 @@ footer p {
     }
 
     .next-but {
-        display: block;
-        width: 300px;
+
+        width: 1000px;
         margin: 0 auto;
-        border: 2px solid #2c493a;
-        border-radius: 8px;
+        display: block;
 
     }
 
-    .next-but p {
-        color: #2c493a;
-        text-transform: uppercase;
-        padding: 20px;
-        text-align: center;
+    .ch-line {
+        width: 1140px;
+        margin: 0 auto;
+        padding-left: 0;
+        clear: both;
+    }
 
+    .next-but a {
+        text-transform: uppercase;
+        padding: 60px 300px;
+        text-align: center;
+        font-size: 25px;
+        border: solid 2px;
+        border-radius: 6px;
+        color: #2c493a;
+        display: block;
+
+    }
+
+    .next-but a:visited {
+        color: #a5a5a5;
+    }
+
+    .next-but a:hover {
+        color: #00aeff;
     }
 
     footer p {
@@ -383,13 +401,13 @@ footer p {
         width: 370px;
 
     }
-    img.img{
+
+    img.img {
         margin-left: 0px;
 
-
-
     }
-
-
+    .butt{
+        width: 1140px;
+    }
 
 }
