@@ -636,7 +636,7 @@ footer p {
         margin: 0 auto;
         display: block;
         clear: both;
-        width: 630px;
+        width: 690px;
     }
     .socseti ul{
         margin: 0 auto;
@@ -647,6 +647,9 @@ footer p {
         float: none;
         display: none;
     }
+    .vk, .mail, .facebook {
+    padding-right: 30px;
+}
 
 
 
