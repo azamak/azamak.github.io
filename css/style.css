@@ -670,6 +670,7 @@ footer p {
         padding-top: 150px;
     }
     .pictheader img{
+        display: none;
         width: 1140px;
         border-radius: 15px;
     }
@@ -686,27 +687,28 @@ footer p {
 
     .menu-inner{
         position: relative;
-        display: block;
-        width: 1140px;
-        float: left;
 
-    }
-    .menu-inner li{
-       display: block;
-        float: left;
-    }
-    .menu-inner li ul li{
-       display: block;
-       padding-left: 36px;
+        width: 1140px;
+
+
     }
 
     .menu-inner li ul {
+
+       padding: 70px 0 0 0;
+        text-align: center;
         display: none;
-        float: right;
+
+    }
+
+    .menu-inner li ul li{
+        padding-top: 20px;
+
+
     }
     .menu-inner li:hover ul{
         display: block;
-        
+
     }
 
     .butt{
