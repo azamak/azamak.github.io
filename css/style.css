@@ -681,20 +681,23 @@ footer p {
         display: block;
         width: 1140px;
         margin: 0 auto;
-        padding-top: 37px;
+        padding-top: 35px;
     }
 
     .menu-inner{
         position: relative;
         display: block;
         width: 1140px;
-        float: right;
+        float: left;
 
     }
     .menu-inner li{
        display: block;
-        padding-left: 40px;
         float: left;
+    }
+    .menu-inner li ul li{
+       display: block;
+       padding-left: 36px;
     }
 
     .menu-inner li ul {
@@ -703,10 +706,11 @@ footer p {
     }
     .menu-inner li:hover ul{
         display: block;
+        
     }
 
-    .menu-inner img{
-        width: 150px;
+    .butt{
+        width: 200px;
 
     }
     .te h1{
