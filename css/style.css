@@ -76,6 +76,9 @@ header {
 nav {
     float: right;
 }
+.menu{
+    display: none;
+}
 
 nav li {
     float: right;
@@ -120,6 +123,10 @@ nav li:hover {
     height: 100px;
     margin: 0 auto;
 
+}
+
+.menu-all{
+    display: none;
 }
 
 .log-nav h1 {
@@ -666,6 +673,46 @@ footer p {
         width: 1140px;
         border-radius: 15px;
     }
+    .te nav{
+        display: none;
+    }
+
+    .menu-all{
+        display: block;
+        width: 1140px;
+        margin: 0 auto;
+        padding-top: 37px;
+    }
+
+    .menu-inner{
+        position: relative;
+        display: block;
+        width: 1140px;
+        float: right;
+
+    }
+    .menu-inner li{
+       display: block;
+        padding-left: 40px;
+        float: left;
+    }
+
+    .menu-inner li ul {
+        display: none;
+        float: right;
+    }
+    .menu-inner li:hover ul{
+        display: block;
+    }
+
+    .menu-inner img{
+        width: 150px;
+
+    }
+    .te h1{
+        display: none;
+    }
+
 
 
 
