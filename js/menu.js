@@ -4,14 +4,14 @@
 /*var menu=$('.butt')*/
 $('.menu-all').ready(function () {
     $('.butt').on('click', function () {
-        var menu = $('.menu-inner li ul li');
+        var menu = $('.menu-inner ul li');
         if (menu.css('display') === 'none') {
             //menu.css('display','block');
             menu.fadeIn();
             menu.css('display', 'block');
         }
         else {
-          
+
             menu.fadeOut();
 
         }

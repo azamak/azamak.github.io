@@ -660,13 +660,12 @@ footer p {
     padding-right: 30px;
 }
     .pictheader{
-        display:block;
+        display:none;
         position: relative;
         width: 1140px;
         height: 642px;
         clear: both;
         margin: 0 auto;
-        padding-top: 150px;
     }
     .pictheader img{
         display: none;
@@ -681,19 +680,20 @@ footer p {
         display: block;
         width: 1140px;
         margin: 0 auto;
-        padding-top: 35px;
+
     }
 
     .menu-inner{
         position: relative;
         width: 1140px;
         height: 1000px;
+         padding-top: 35px;
 
 
 
     }
 
-    .menu-inner li ul {
+    .menu-inner  ul {
 
        padding: 70px 0 500px 0;
         text-align: center;
@@ -701,9 +701,10 @@ footer p {
 
     }
 
-    .menu-inner li ul li{
+    .menu-inner ul li{
         padding-top: 20px;
         display: none;
+
 
 
     }
@@ -714,9 +715,10 @@ footer p {
 
     .butt{
         width: 200px;
-        padding-bottom: 60px;
-
+        height: 137px;
+        display: block;
     }
+
     .te h1{
         display: none;
     }
