@@ -122,7 +122,6 @@ nav li:hover {
     width: 1200px;
     height: 100px;
     margin: 0 auto;
-
 }
 
 .menu-all{
@@ -687,32 +686,35 @@ footer p {
 
     .menu-inner{
         position: relative;
-
         width: 1140px;
+        height: 1000px;
+
 
 
     }
 
     .menu-inner li ul {
 
-       padding: 70px 0 0 0;
+       padding: 70px 0 500px 0;
         text-align: center;
-        display: none;
+         border-radius: 20px;
 
     }
 
     .menu-inner li ul li{
         padding-top: 20px;
+        display: none;
 
 
     }
-    .menu-inner li:hover ul{
-        display: block;
+  /*  .menu-inner li:hover ul{
+        display: block;*/
 
     }
 
     .butt{
         width: 200px;
+        padding-bottom: 60px;
 
     }
     .te h1{
@@ -723,4 +725,3 @@ footer p {
 
 
 
-}
