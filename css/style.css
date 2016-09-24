@@ -679,7 +679,8 @@ footer p {
     }
 
     .pictheader {
-        display: none;
+        display: block;
+         padding-top: 152px;
         position: relative;
         width: 1140px;
         height: 642px;
@@ -688,9 +689,11 @@ footer p {
     }
 
     .pictheader img {
-        display: none;
+
+        display: block;
         width: 1140px;
         border-radius: 15px;
+        z-index: 1;
     }
 
     .te nav {
@@ -701,6 +704,7 @@ footer p {
         display: block;
         width: 1140px;
         margin: 0 auto;
+
 
     }
 
@@ -725,19 +729,23 @@ footer p {
     }
 
     .menu-inner ul li {
+        position: relative;
         padding-top: 30px;
         clear: both;
         display: none;
+        z-index: 2;
 
     }
 
 }
 
 .butt {
+    position: relative;
     width: 200px;
     height: 137px;
     display: block;
     padding-bottom: 55px;
+    z-index: 2;
 }
 
 .te h1 {

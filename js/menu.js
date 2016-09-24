@@ -7,9 +7,11 @@ $('.menu-all').ready(function () {
 
         var menu = $('.menu-inner ul li');
         var close = $('.butt');
+        var pict = $('.pictheader');
 
         if (menu.css('display') === 'none') {
 
+            pict.hide()
             close.attr( 'src', "img/menu_close1.png" );
 
 
@@ -19,6 +21,7 @@ $('.menu-all').ready(function () {
 
         }
         else {
+            pict.fadeIn(2000)
 
             menu.slideUp();
             close.attr( 'src', "img/menu.png" );
