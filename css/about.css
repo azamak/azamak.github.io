@@ -129,7 +129,6 @@ nav li:hover {
     padding-left: 140px;
     width: 920px;
 
-
 }
 
 .content-inside {
@@ -146,7 +145,6 @@ nav li:hover {
     text-align: center;
 }
 
-
 footer {
     width: 1200px;
     height: 150px;
@@ -157,15 +155,12 @@ footer {
     -webkit-border-radius: 10px 10px 10px 10px;
 }
 
-
-
 footer p {
     float: left;
     padding: 60px 0 0 140px;
     color: #fff;
     font-size: 18px;
 }
-
 
 .socseti {
     float: right;
@@ -189,79 +184,260 @@ footer p {
     padding-top: 8px;
 }
 
-@media all and (max-width: 1200px) {
-   .hea .fon {
-    border-radius: 0px;
-    height: 133px;
-    width: 1200px;
+/*---------------------------------------------------   изменения   ---------------------------------------------------------*/
+
+.hea .fon1 {
+    display: none;
 }
+
+.menu-all {
+    display: none;
+
+}
+
+
+
+article{
+    padding-top: 0px;
+}
+
+
+/*---------------------------------------------------   до сюда  ---------------------------------------------------------*/
+
+@media all and (max-width: 1200px) {
 
     footer {
-    width: 1200px;
-    height: 150px;
-    margin: 0 auto;
-    background: url("../img/back-footer.png") no-repeat 0 0;
-    border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-}
+        width: 1200px;
+        height: 150px;
+        margin: 0 auto;
+        background: url("../img/back-footer.png") no-repeat 0 0;
+        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+    }
+
     .about {
-    padding-left: 0;
-    width: 1200px;
+        padding-left: 0;
+        width: 1200px;
 
+    }
 
-}
-    .content-inside{
+    .content-inside {
         padding: 0 30px 30px 30px;
 
-}
-    .about-img{
+    }
+
+    .about-img {
         display: block;
         margin: 0 auto;
         width: 1140px;
     }
-       footer {
-    width: 1200px;
-    height: 300px;
-    margin: 0 auto;
-    background: url("../img/back-footer-mobile.png") no-repeat 0 0;
 
-    border-radius: 0;
-    clear: both;
-}
-       .twitter img{
+    footer {
+        width: 1200px;
+        height: 300px;
+        margin: 0 auto;
+        background: url("../img/back-footer-mobile.png") no-repeat 0 0;
+
+        border-radius: 0;
+        clear: both;
+    }
+
+    .twitter img {
         width: 150px;
     }
-    .vk img{
+
+    .vk img {
         width: 150px;
     }
-    .facebook img{
+
+    .facebook img {
         width: 150px;
     }
-    .mail img{
+
+    .mail img {
         width: 150px;
     }
-    .socseti{
-        padding:50px 0 0 0;
+
+    .socseti {
+        padding: 50px 0 0 0;
         float: none;
         margin: 0 auto;
         display: block;
         clear: both;
         width: 690px;
     }
-    .socseti ul{
+
+    .socseti ul {
         margin: 0 auto;
     }
-    footer p{
+
+    footer p {
         padding: 0;
         text-align: center;
         float: none;
         display: none;
     }
+
     .vk, .mail, .facebook {
-    padding-right: 30px;
+        padding-right: 30px;
+    }
+
+    /*---------------------------------------------------   изменения   ---------------------------------------------------------*/
+
+
+    .hea .fon {
+        display: none;
+    }
+
+    .hea .fon1 {
+        border-radius: 0;
+        width: 1200px;
+        height: 930px;
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .te h1 {
+        display: none;
+    }
+
+    .menu-all {
+        display: block;
+        width: 1140px;
+        margin: 0 auto;
+
+    }
+
+    .menu-inner {
+        position: relative;
+        width: 1140px;
+        height: 1000px;
+        padding-top: 35px;
+        display: block;
+    }
+
+    .menu-inner ul {
+
+        /*padding: 70px 0 500px 0;*/
+        border-radius: 20px;
+        height: 200px;
+        display: block;
+
+    }
+
+    .menu-inner ul li {
+        position: relative;
+        padding-top: 30px;
+        clear: both;
+        display:none;
+        z-index: 2;
+
+    }
+
+    .butt {
+        position: relative;
+        width: 200px;
+        height: 137px;
+        display: block;
+        z-index: 2;
+        float: left;
+    }
+
+    .te h1 {
+        display: none;
+    }
+
+    .menu-inner a {
+        padding-top: 72px;
+        padding-bottom: 74px;
+        font-size: 50px;
+        color: #fff;
+        clear: both;
+        display: block;
+        text-decoration: none;
+
+
+    }
+
+    .three {
+        width: 356px;
+        height: 200px;
+        clear: both;
+        text-align: center;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+
+    }
+
+    .two {
+        padding-left: 30px;
+        display: inline-block;
+
+        clear: both;
+    }
+
+    .leftblock {
+        float: left;
+        display: block;
+    }
+
+    .rightblock {
+        float: right;
+        display: block;
+    }
+
+    .second {
+        display: inline-block;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .bottmenu {
+        padding-left: 197px;
+        display: block;
+    }
+
+    .upp {
+        width: 1140px;
+        height: 137px;
+        padding-bottom: 55px;
+        display: block;
+    }
+
+    .upp p {
+        float: right;
+        display: block;
+        font-size: 90px;
+        padding-top: 10px;
+    }
+
+    .pictheader {
+        display: block;
+        padding-top: 80px;
+        position: relative;
+        width: 1140px;
+        height: 642px;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    .pictheader img {
+        display: block;
+        width: 1140px;
+        border-radius: 15px;
+        z-index: 1;
+    }
+
+
+    article{
+        padding-top: 792px;
+
+    }
 }
-
-
-
-}
+/*---------------------------------------------------   изменения   ---------------------------------------------------------*/
