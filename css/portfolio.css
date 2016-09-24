@@ -294,6 +294,27 @@ footer p {
     display: none;
 }
 
+/*---------------------------------------------------   изменения   ---------------------------------------------------------*/
+
+.hea .fon1 {
+    display: none;
+}
+
+.menu-all {
+    display: none;
+
+}
+
+
+
+article{
+    padding-top: 0px;
+}
+
+
+/*---------------------------------------------------   до сюда  ---------------------------------------------------------*/
+
+
 @media all and (max-width: 1200px) {
     .hea .fon {
         border-radius: 0px;
@@ -451,4 +472,161 @@ footer p {
     padding-right: 30px;
 }
 
+            /*---------------------------------------------------   изменения   ---------------------------------------------------------*/
+
+
+    .hea .fon {
+        display: none;
+    }
+
+    .hea .fon1 {
+        border-radius: 0;
+        width: 1200px;
+        height: 930px;
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .te h1 {
+        display: none;
+    }
+
+    .menu-all {
+        display: block;
+        width: 1140px;
+        margin: 0 auto;
+
+    }
+
+    .menu-inner {
+        position: relative;
+        width: 1140px;
+        height: 1000px;
+        padding-top: 35px;
+        display: block;
+    }
+
+    .menu-inner ul {
+
+        /*padding: 70px 0 500px 0;*/
+        border-radius: 20px;
+        height: 200px;
+        display: block;
+
+    }
+
+    .menu-inner ul li {
+        position: relative;
+        padding-top: 30px;
+        clear: both;
+        display:none;
+        z-index: 2;
+
+    }
+
+    .butt {
+        position: relative;
+        width: 200px;
+        height: 137px;
+        display: block;
+        z-index: 2;
+        float: left;
+    }
+
+    .te h1 {
+        display: none;
+    }
+
+    .menu-inner a {
+        padding-top: 72px;
+        padding-bottom: 74px;
+        font-size: 50px;
+        color: #fff;
+        clear: both;
+        display: block;
+        text-decoration: none;
+
+
+    }
+
+    .three {
+        width: 356px;
+        height: 200px;
+        clear: both;
+        text-align: center;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+
+    }
+
+    .two {
+        padding-left: 30px;
+        display: inline-block;
+
+        clear: both;
+    }
+
+    .leftblock {
+        float: left;
+        display: block;
+    }
+
+    .rightblock {
+        float: right;
+        display: block;
+    }
+
+    .second {
+        display: inline-block;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .bottmenu {
+        padding-left: 197px;
+        display: block;
+    }
+
+    .upp {
+        width: 1140px;
+        height: 137px;
+        padding-bottom: 55px;
+        display: block;
+    }
+
+    .upp p {
+        float: right;
+        display: block;
+        font-size: 90px;
+        padding-top: 10px;
+    }
+
+    .pictheader {
+        display: block;
+        padding-top: 80px;
+        position: relative;
+        width: 1140px;
+        height: 642px;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    .pictheader img {
+        display: block;
+        width: 1140px;
+        border-radius: 15px;
+        z-index: 1;
+    }
+
+
+    article{
+        padding-top: 792px;
+
+    }
 }
+/*---------------------------------------------------   изменения   ---------------------------------------------------------*/
