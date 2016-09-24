@@ -76,7 +76,8 @@ header {
 nav {
     float: right;
 }
-.menu{
+
+.menu {
     display: none;
 }
 
@@ -124,14 +125,15 @@ nav li:hover {
     margin: 0 auto;
 }
 
-.menu-all{
+.menu-all {
     display: none;
 }
 
 .log-nav h1 {
     padding: 20px 0 0 140px;
 }
-.pictheader{
+
+.pictheader {
     display: none;
 }
 
@@ -585,143 +587,203 @@ footer p {
         clear: both;
 
     }
-    header{
+
+    header {
         height: 930px;
     }
 
     .container {
         clear: both;
-    width: 1140px;
-    height: 300px;
+        width: 1140px;
+        height: 300px;
         display: none;
         float: none;
 
-}
-    .logobig{
+    }
+
+    .logobig {
         clear: both;
     }
-    #slides{
+
+    #slides {
         height: 300px;
     }
-    .botm{
+
+    .botm {
         width: 1140px;
     }
-    .log-sl-wel{
+
+    .log-sl-wel {
         width: 1140px;
         padding: 0;
         margin: 0 auto;
         display: block;
     }
-    .welcome{
-        display: none;
-    }
-    .logobig{
-        display: none;
-    }
-    footer {
-    width: 1200px;
-    height: 300px;
-    margin: 0 auto;
-    background: url("../img/back-footer-mobile.png") no-repeat 0 0;
 
-    border-radius: 0;
-    clear: both;
-}
-    .twitter img{
+    .welcome {
+        display: none;
+    }
+
+    .logobig {
+        display: none;
+    }
+
+    footer {
+        width: 1200px;
+        height: 300px;
+        margin: 0 auto;
+        background: url("../img/back-footer-mobile.png") no-repeat 0 0;
+
+        border-radius: 0;
+        clear: both;
+    }
+
+    .twitter img {
         width: 150px;
     }
-    .vk img{
+
+    .vk img {
         width: 150px;
     }
-    .facebook img{
+
+    .facebook img {
         width: 150px;
     }
-    .mail img{
+
+    .mail img {
         width: 150px;
     }
-    .socseti{
-        padding:50px 0 0 0;
+
+    .socseti {
+        padding: 50px 0 0 0;
         float: none;
         margin: 0 auto;
         display: block;
         clear: both;
         width: 690px;
     }
-    .socseti ul{
+
+    .socseti ul {
         margin: 0 auto;
     }
-    footer p{
+
+    footer p {
         padding: 0;
         text-align: center;
         float: none;
         display: none;
     }
+
     .vk, .mail, .facebook {
-    padding-right: 30px;
-}
-    .pictheader{
-        display:none;
+        padding-right: 30px;
+    }
+
+    .pictheader {
+        display: none;
         position: relative;
         width: 1140px;
         height: 642px;
         clear: both;
         margin: 0 auto;
     }
-    .pictheader img{
+
+    .pictheader img {
         display: none;
         width: 1140px;
         border-radius: 15px;
     }
-    .te nav{
+
+    .te nav {
         display: none;
     }
 
-    .menu-all{
+    .menu-all {
         display: block;
         width: 1140px;
         margin: 0 auto;
 
     }
 
-    .menu-inner{
+    .menu-inner {
         position: relative;
         width: 1140px;
         height: 1000px;
-         padding-top: 35px;
+        padding-top: 35px;
+
+    }
+
+    .menu-inner ul {
+
+        /*padding: 70px 0 500px 0;*/
+        border-radius: 20px;
+        height: 200px;
+
 
 
 
     }
 
-    .menu-inner  ul {
-
-       padding: 70px 0 500px 0;
-        text-align: center;
-         border-radius: 20px;
-
-    }
-
-    .menu-inner ul li{
-        padding-top: 20px;
-        display: none;
-
-
-
-    }
-  /*  .menu-inner li:hover ul{
-        display: block;*/
+    .menu-inner ul li {
+        padding-top: 30px;
+        clear: both;
+        display: inline-block;
 
     }
 
-    .butt{
-        width: 200px;
-        height: 137px;
-        display: block;
-    }
+}
 
-    .te h1{
-        display: none;
-    }
+.butt {
+    width: 200px;
+    height: 137px;
+    display: block;
+    padding-bottom: 55px;
+}
+
+.te h1 {
+    display: none;
+}
+
+.menu-inner a {
+    padding-top: 40px;
+    font-size: 50px;
+    color: #fff;
+    clear: both;
+    display: block;
+
+
+}
+.three{
+    width: 357px;
+    height: 150px;
+
+    clear: both;
+    text-align: center;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.two{
+    padding-left: 30px;
+
+    clear: both;
+}
+.leftblock{
+    float: left;
+
+}
+.rightblock{
+    float: right;
+}
+.second{
+    display: inline-block;
+    margin: 0 auto;
+}
+.bottmenu{
+    padding-left: 197px;
+}
+
 
 
 
