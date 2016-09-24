@@ -11,20 +11,20 @@ $('.menu-all').ready(function () {
 
         if (menu.css('display') === 'none') {
 
-            pict.hide()
-            close.attr( 'src', "../img/menu_close1.png" );
+            pict.hide();
+            close.attr('src', "../img/menu_close1.png");
 
 
-            menu.slideDown()
-            menu.css('display','inline-block');
+            menu.slideDown();
+            menu.css('display', 'inline-block');
 
 
         }
         else {
-            pict.fadeIn(2000)
+            pict.fadeIn(2000);
 
             menu.slideUp();
-            close.attr( 'src', "../img/menu.png" );
+            close.attr('src', "../img/menu.png");
 
         }
 

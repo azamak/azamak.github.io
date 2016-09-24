@@ -290,7 +290,7 @@ footer p {
     padding-top: 8px;
 }
 
-.next-but {
+.butmain {
     display: none;
 }
 
@@ -305,15 +305,11 @@ footer p {
 
 }
 
-
-
-article{
+article {
     padding-top: 0px;
 }
 
-
 /*---------------------------------------------------   до сюда  ---------------------------------------------------------*/
-
 
 @media all and (max-width: 1200px) {
     .hea .fon {
@@ -371,13 +367,6 @@ article{
 
     .numpage {
         display: none;
-    }
-
-    .next-but {
-
-        width: 1000px;
-        margin: 0 auto;
-        display: block;
 
     }
 
@@ -388,25 +377,91 @@ article{
         clear: both;
     }
 
-    .next-but a {
+
+
+
+
+    .button-next a {
+        clear: both;
+        float: none;
+    }
+
+    .button-next {
+        clear: both;
+        float: none;
+        margin: 0 auto;
+    }
+
+
+
+    .button-next {
+        clear: both;
+        width: 1000px;
+        margin: 0 auto;
+        padding: 30px 0 30px 0;
+
+
+    }
+     .button-prev {
+        clear: both;
+        width: 1000px;
+        margin: 0 auto;
+         padding-bottom: 30px;
+
+    }
+
+
+    .button-next a {
+        color: #2c493a;
         text-transform: uppercase;
         padding: 60px 300px;
         text-align: center;
         font-size: 25px;
-        border: solid 2px;
+        border: 2px solid ;
         border-radius: 6px;
-        color: #2c493a;
         display: block;
+        clear: both;
 
     }
 
-    .next-but a:visited {
+    .button-prev a{
+        color: #2c493a;
+        text-transform: uppercase;
+        padding: 60px 300px;
+        text-align: center;
+        font-size: 25px;
+        border: 2px solid ;
+        border-radius: 6px;
+        display: block;
+        clear: both;
+        float: none;
+    }
+
+    .button-next a:visited {
         color: #a5a5a5;
     }
 
-    .next-but a:hover {
+    .button-next a:hover {
         color: #00aeff;
     }
+    .button-prev a:visited {
+        color: #a5a5a5;
+    }
+
+    .button-prev a:hover {
+        color: #00aeff;
+    }
+
+
+    .buttons_np {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+
+
+
+
 
     footer p {
         width: 500px;
@@ -427,54 +482,62 @@ article{
         margin-left: 0px;
 
     }
-    .butt{
+
+    .butt {
         width: 1140px;
     }
-           footer {
-    width: 1200px;
-    height: 300px;
-    margin: 0 auto;
-    background: url("../img/back-footer-mobile.png") no-repeat 0 0;
 
-    border-radius: 0;
-    clear: both;
-}
-       .twitter img{
+    footer {
+        width: 1200px;
+        height: 300px;
+        margin: 0 auto;
+        background: url("../img/back-footer-mobile.png") no-repeat 0 0;
+
+        border-radius: 0;
+        clear: both;
+    }
+
+    .twitter img {
         width: 150px;
     }
-    .vk img{
+
+    .vk img {
         width: 150px;
     }
-    .facebook img{
+
+    .facebook img {
         width: 150px;
     }
-    .mail img{
+
+    .mail img {
         width: 150px;
     }
-    .socseti{
-        padding:50px 0 0 0;
+
+    .socseti {
+        padding: 50px 0 0 0;
         float: none;
         margin: 0 auto;
         display: block;
         clear: both;
         width: 690px;
     }
-    .socseti ul{
+
+    .socseti ul {
         margin: 0 auto;
     }
-    footer p{
+
+    footer p {
         padding: 0;
         text-align: center;
         float: none;
         display: none;
     }
+
     .vk, .mail, .facebook {
-    padding-right: 30px;
-}
+        padding-right: 30px;
+    }
 
-            /*---------------------------------------------------   изменения   ---------------------------------------------------------*/
-
-
+    /*---------------------------------------------------   изменения   ---------------------------------------------------------*/
     .hea .fon {
         display: none;
     }
@@ -522,7 +585,7 @@ article{
         position: relative;
         padding-top: 30px;
         clear: both;
-        display:none;
+        display: none;
         z-index: 2;
 
     }
@@ -549,7 +612,6 @@ article{
         display: block;
         text-decoration: none;
 
-
     }
 
     .three {
@@ -560,7 +622,6 @@ article{
         border: 2px solid #ffffff;
         box-sizing: border-box;
         border-radius: 10px;
-
 
     }
 
@@ -623,10 +684,10 @@ article{
         z-index: 1;
     }
 
-
-    article{
+    article {
         padding-top: 792px;
 
     }
 }
+
 /*---------------------------------------------------   изменения   ---------------------------------------------------------*/
