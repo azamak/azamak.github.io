@@ -309,6 +309,10 @@ article {
     padding-top: 0px;
 }
 
+.buttons_np{
+    display: none;
+}
+
 /*---------------------------------------------------   до сюда  ---------------------------------------------------------*/
 
 @media all and (max-width: 1200px) {
@@ -456,6 +460,7 @@ article {
     .buttons_np {
         width: 1000px;
         margin: 0 auto;
+        display: block;
     }
 
 

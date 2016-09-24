@@ -167,8 +167,9 @@ nav li:hover {
 .container {
     padding: 60px 0 0 0;
     width: 556px;
-    height: 150px;
+    height: 180px;
     float: right;
+    overflow: hidden;
 }
 
 .linehor {
@@ -255,6 +256,7 @@ blockquote, q {
     margin: 0 0 0 0;
     top: -185px;
     position: relative;
+
 }
 
 .slidesPagination li {
