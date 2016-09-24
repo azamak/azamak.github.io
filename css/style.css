@@ -721,12 +721,13 @@ footer p {
 
 
 
+
     }
 
     .menu-inner ul li {
         padding-top: 30px;
         clear: both;
-        display: inline-block;
+        display: none;
 
     }
 
@@ -744,17 +745,21 @@ footer p {
 }
 
 .menu-inner a {
-    padding-top: 40px;
+    padding-top: 72px;
+    padding-bottom: 74px;
     font-size: 50px;
     color: #fff;
     clear: both;
     display: block;
+    text-decoration: none;
 
 
 }
+
+
 .three{
     width: 357px;
-    height: 150px;
+    height: 200px;
 
     clear: both;
     text-align: center;
@@ -763,6 +768,8 @@ footer p {
     border-radius: 10px;
 
 }
+
+
 
 .two{
     padding-left: 30px;
@@ -779,6 +786,7 @@ footer p {
 .second{
     display: inline-block;
     margin: 0 auto;
+    padding-top: 30px;
 }
 .bottmenu{
     padding-left: 197px;

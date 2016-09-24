@@ -6,18 +6,22 @@ $('.menu-all').ready(function () {
     $('.butt').on('click', function () {
 
         var menu = $('.menu-inner ul li');
-        var menuUl = $('.menu-inner ul');
+        var close = $('.butt');
 
         if (menu.css('display') === 'none') {
-            //menu.css('display','block');
+
+            close.attr( 'src', "img/menu_close.png" );
+
 
             menu.slideDown()
+            menu.css('display','inline-block');
 
 
         }
         else {
 
             menu.slideUp();
+            close.attr( 'src', "img/menu.png" );
 
         }
 
