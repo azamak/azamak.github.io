@@ -10,7 +10,7 @@ $('.menu-all').ready(function () {
 
         if (menu.css('display') === 'none') {
 
-            close.attr( 'src', "img/menu_close.png" );
+            close.attr( 'src', "img/menu_close1.png" );
 
 
             menu.slideDown()
