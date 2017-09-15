@@ -66,6 +66,9 @@ body {
         clear: both;
 
     }
+    body{
+        font-size: larger;
+    }
 
 }
 
